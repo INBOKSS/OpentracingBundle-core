@@ -32,7 +32,7 @@ final class RequestSpanOptionsFactory implements SpanOptionsFactory
      * @inheritDoc
      * @SuppressWarnings(PHPMD.StaticAccess)
      */
-    public function createSpanOptions(Request $request = null): array
+    public function createSpanOptions(?Request $request = null): array
     {
         $options = [
             'tags' => [

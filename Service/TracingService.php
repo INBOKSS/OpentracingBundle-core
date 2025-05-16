@@ -59,7 +59,7 @@ final class TracingService implements Tracing
         return $request;
     }
 
-    public function startActiveSpan(string $operationName, array $options = null): void
+    public function startActiveSpan(string $operationName, ?array $options = null): void
     {
         $options = $options ?? [];
         $options['finish_span_on_close'] = true;

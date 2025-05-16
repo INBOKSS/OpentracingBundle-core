@@ -41,7 +41,7 @@ interface Tracing
      *   - Zero or more tags
      *   - FinishSpanOnClose option
      */
-    public function startActiveSpan(string $operationName, array $options = null): void;
+    public function startActiveSpan(string $operationName, ?array $options = null): void;
 
     /**
      * Adds a log record to the span in key => value format, key must be a string and tag must be either

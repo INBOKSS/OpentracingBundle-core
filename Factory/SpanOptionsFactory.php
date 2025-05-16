@@ -11,5 +11,5 @@ interface SpanOptionsFactory
     /**
      * @return array<string,mixed>
      */
-    public function createSpanOptions(Request $request = null): array;
+    public function createSpanOptions(?Request $request = null): array;
 }
