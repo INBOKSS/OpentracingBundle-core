@@ -1,5 +1,5 @@
 {
-  "name": "auxmoney/opentracing-bundle-core",
+  "name": "inbox/opentracing-bundle-core",
   "description": "Symfony Opentracing bundle to easily enable distributed tracing",
   "keywords": [
     "auxmoney",
